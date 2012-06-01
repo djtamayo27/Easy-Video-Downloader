@@ -1,0 +1,16 @@
+{
+  "name": "Easy Video Downloader",
+  "description": "下载优酷，土豆，腾讯，cntv，新浪，网易等各大网站视频，数据来自flvcd.com，版权所有归视频来源网站。",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon48.png",
+    "default_title": "Easy Video Downloader" ,
+	"default_popup": "popup.html"      
+  },
+  "homepage_url": "http://weibo.com/2437314534",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png" },
+  "permissions": ["tabs",
+  			"http://www.flvcd.com/*"
+  ]
+}
